@@ -1,0 +1,56 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.dll
+
+# Debug files
+*.dSYM/
+
+# Archives
+*.zip
+*.gz
+*.bz2
+*.tar
+
+# media file
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.wma
+*.wmv
+*.mkv
+*.jpg
+*.png
+
+# archives
+/archive/
+
+# test folder
+/test/
