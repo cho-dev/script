@@ -2,7 +2,7 @@
 rem ================================================
 rem playcompare2files.bat
 rem     compare 2 movie files.
-rem              by Coffey 2014.12.08  mod 2016.03.23
+rem              by Coffey 2014.12.08  mod 2016.03.25
 rem ================================================
 
 setlocal
@@ -22,11 +22,11 @@ set ffmpegPath=ffmpeg.exe
 set ffplayOptions=-autoexit -analyzeduration 30000000 -probesize 30M
 set ffmpegOptions=-analyzeduration 30000000 -probesize 30M
 set ffmpegMetaOptions=-metadata:s:a:0 language=jpn
-set ffmpegEncodeOptions=-c:v libx264 -x264-params crf=22 -c:a aac -b:a 128k
+set ffmpegEncodeOptions=-c:v libx264 -x264-params crf=22 -b:a 128k
 set frameOffset=0
 set sensitivity=1
 
-set modDate=20160323
+set modDate=20160325
 
 set inFile1=
 set inFile2=
