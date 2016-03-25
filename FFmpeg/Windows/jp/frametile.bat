@@ -1,5 +1,5 @@
 @echo off
-rem Frame Tiling with ffmpeg 2014.05.09  lastmod 2016.02.08
+rem Frame Tiling with ffmpeg 2014.05.09  lastmod 2016.03.25
 rem                  by Coffey
 rem                  ffmpeg 2.2.1 - 
 rem -------------------------------------------------------
@@ -28,7 +28,7 @@ rem # debugFlag : debug mode [yes/no]
     set pathFFMPEG=ffmpeg.exe
     set fontFile=C:\Windows\Fonts\arial.ttf
     set mesPause=no
-    set encParams=-preset:v veryfast -c:v libx264 -c:a aac -b:a 128k -ac 2
+    set encParams=-preset:v veryfast -c:v libx264 -b:a 128k -ac 2
     set fps=24000/1001
     set marker=box
     set showInfo=pts
@@ -39,7 +39,7 @@ rem # debugFlag : debug mode [yes/no]
     set startNumber=0
     set previewTimecode=no
     set outFileSuffix=-tiles
-    set modDate=20160208
+    set modDate=20160325
     
     set debugFlag=no
 
